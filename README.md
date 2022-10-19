@@ -38,7 +38,7 @@ necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+Trabajando de forma individual aprenderás a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
