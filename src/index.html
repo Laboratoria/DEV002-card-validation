@@ -1,14 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">  
+  <title>PLANPLAY</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<!-- tarjeta arriba dinamica -->
+<body>
+  <main class="maincontenedor">
+    <section class="mainbackgroundsectionup">
+      
+       <!-- tarjeta back up -->    
+     <div class="card-back">
+      <p class="card_backnumber-cvv"> 000 </p>
+      </div>
+      
+    <div class="card">  <!-- card CSS -->    
+      <img class="card_logo" src="logo.png">
+      <p class="card_number"> 0000 0000 0000 0000 </p>
+      <div class="card-detail">
+      <p class="card-detail-nombre">Nombre</p>
+      <p> <span class="card-meses"> 00 </span>/<span class="card-año">00</span></p>  
+      </div>
+
+    </section>
+     
+ <!-- tarjeta abajo, comienzo del formulario -->
+ <!-- tarjeta abajo, comienzo del formulario -->
+ <!-- tarjeta abajo, comienzo del formulario --> 
+
+    <section class="mainbackground_formulario">
+    <form class="form" id= "formcualquier"> 
+       <label class="form_label" for="cardholder">Nombre</label>
+       <!-- txt dentro del casillero nombre -->
+       <input class="form_input" type="text" name="cardholder" id="cardholder" placeholder=" Ej. Nombre">
+       <div class="form_cardholder-error error"> </div> 
+
+
+      
+       <!-- cardNumber para validatorrrr en el for -->
+      <label class="form_label" for="cardNumber">Número de tarjeta </label>
+      <input class="form_input" type="text" name="cardNumber" id="cardNumber" placeholder=" Ej. 1234 5678 9123 0000" maxlength="19">
+
+      <div class="form_inputNumber-error error"></div> 
+
+
+       <!-- tarjeta date y cvv -->
+
+    <div class="form_date-cvv"> <!-- grid -->
+    <label class="form_label" for="cardMonth">Fecha de Exp. (MM/YY)</label>
+    </div> 
+    
+    <label class="form_label" for="cardCvv">CVV</label>
+      
+    <div class="form_date">
+    <input class="form_input" type="text" maxlength="2" name="cardMonth" id="cardMonth" placeholder="MM">
+    <input class="form_input" type="text" maxlength="2" name="cardYear" id="cardYear" placeholder="YY">
+    <input class="form_input" type="text" name="card_cvv" maxlength="3" placeholder="CVV">
+    </div>
+
+       <!-- 5ta caja -->
+    <div class="form_errors-container"> 
+    <div class="form_input-mm-error error"> </div>
+    <div class="form_input-yy-error error"> </div>
+  </div>
+
+
+   <!-- 6ta caja -->
+     <div class="form_input-CVV-error error"> </div>
+
+    
+     <input class="form_submit" type="submit" value="CONFIRMAR">
+
+    </form>
+    </section>
+    </main>
+
+
+  <!-- completed state start  -->
+
+  <!-- Validacion & gracias -->
+
+    <section class="Validacion_section">
+    <img class="Validacion_section-img" src="checked.png" alt="complete icon">
+    <h1 class="Validacion_section-title">Gracias </h1>
+    <p class="Validacion_section-texto">Tu tarjeta ha sido ingresada con exito!</p>
+    <button class="Validacion_section-button">VOLVER</button>
+
+
+   </section>
+
+
+
+    <script src="index.js " type="module" ></script>
+
+   
+</body>
+
 </html>

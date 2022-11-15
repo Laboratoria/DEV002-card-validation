@@ -226,6 +226,8 @@ para definir el producto final a nivel de experiencia y de interfaz.
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
+/* IMPORTANTEEEE*/
+
 ### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
@@ -258,16 +260,41 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+  "Planpay"
+  
+  
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+  
+  -Es una pagina web de pago de cuentas automatica y la organizacion de estos. Se requiere la validadion de la tarjeta de credito para acceder al pago de varios tipos de cuentas.
+
+
 * La imagen final de tu proyecto.
+
+
+
 * Investigación UX:
+
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+       
+       Personas independientes que se mantiene ocupados constantemente que necesitan mas tiempo en sus vidas y requieran ahorrar el tiempo para otras cosas y que ademas, los ayude a organizarse mensualmente en su pago de cuentas.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+      
+      Al ingresar en la pagina web ellos pueden elegir distintos tipos de cuentas, ya sean servicio basicos o "retails". Asi poder maximizar su tiempo libre y llevando una organizacion mensual de sus cuentas.
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+    
+
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+
+
   5. Imagen del prototipo final.
+
+
 
 #### Visualmente (HTML y CSS)
 
@@ -389,7 +416,7 @@ A continuación un video de Michelle que te lleva a través del algoritmo de Luh
 y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
 con detenimiento y sigue sus consejos! :)
 
-[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+[![tips credit card]( )](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
 [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
